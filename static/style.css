@@ -38,3 +38,35 @@ input[type="text"] {
     border-radius: 5px;
     font-size: 16px;
 }
+
+button {
+    padding: 10px 20px;
+    background-color: #c2b97f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+ul{
+    list-style: none;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+    border-bottom: 1px solid #eee;
+}
+
+li.completed span {
+    text-decoration: line-through;
+    color: #aaa;
+}
+
+a {
+    text-decoration: none;
+    margin-left: 8px;
+    font-size: 18px;
+}
